@@ -24,7 +24,13 @@ def main():
 
 def exercise_01():
     #Ler uma lista de 5 números inteiros e mostre cada número juntamente com a sua posição na lista
-    
+    list_number = []
+    for index in range (0,5):
+        item = int(input('Enter a number: '))
+        list_number.append(item)
+    for item in (list_number):
+        print(item)
+
 
 def exercise_02():
     print("fazer")
