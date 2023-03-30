@@ -17,3 +17,16 @@ print(dicionario)
 print(dicionario.get('nome', 'nome não incontrado'))'''
 #///////////////////////////////////////////////////////////
 #//////////////////////////////////////////////////////////
+
+def create_dictionary():
+    # Forma simples de fazer
+    data = dict()
+
+    data['name'] = input("Name: ")
+    data['age'] = input("Age: ")
+    data['sexo'] = input("sexo: ")
+    data['city'] = input("city: ")
+    return data
+def main():
+    persona = create_dictionary()
+main()
