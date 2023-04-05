@@ -11,7 +11,7 @@ def my_funcion(number_list):
             number_dict[number] = 1
         else:
             number_dict[number] += 1
-            
+
     return number_dict
 def main():
 
